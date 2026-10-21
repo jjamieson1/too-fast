@@ -15,17 +15,18 @@ For prototyping, write each one on an index card. Print the *flavor text* in ita
 
 | # | Card | Copies | Timing | Effect | Flavor |
 |---|---|---|---|---|---|
-| 1 | **Empty Street** | 3 | After move | Move forward 3 more spaces, then resolve that space. | *3 a.m. Not a soul in sight.* |
+| 1 | **Empty Street** | 2 | After move | Move forward 3 more spaces, then resolve that space. | *3 a.m. Not a soul in sight.* |
 | 2 | **Bribe a Cop** | 3 | Instant | Cancel being Pulled Over or Busted. Set your Heat to 1. | *"I didn't see anything."* |
 | 3 | **Oil Slick** | 3 | Instant | Place an oil slick token on any empty Plain space. | *Oops. Was that me?* |
 | 4 | **Green Wave** | 2 | Before roll | +2 to this roll. | *Every light turns green as you approach.* |
-| 5 | **Drift King** | 2 | Before roll | Roll two dice this turn and use either one. Gain +1 Heat. | *Sideways is faster. Probably.* |
+| 5 | **Drift King** | 1 | Before roll | Roll two dice this turn and use either one. Gain +1 Heat. | *Sideways is faster. Probably.* |
 | 6 | **Scanner Tip** | 2 | Before roll | Speed traps can't catch you this turn. | *Your buddy on the radio: "Traps are off tonight."* |
 | 7 | **Slipstream** | 2 | Before roll | Move to the space directly behind the nearest car ahead of you on your route (if it's within 6 spaces). Then roll and move as normal. | *Tuck in. Ride the draft.* |
 | 8 | **Shortcut** | 2 | After move | Move forward to the next Gas Station on your route and resolve it. If there's none ahead of you, move forward 3 spaces instead. | *The locals know a way.* |
 | 9 | **Fake Plates** | 2 | Instant | Lose 3 Heat. | *Whose car? Not mine.* |
 | 10 | **Sponsor Deal** | 2 | Instant | Gain 4 Rep. | *A tuning shop wants their logo on your hood.* |
 | 11 | **Mechanic on Call** | 2 | Instant | Cancel an Obstacle card as you draw it. Discard both. | *Kenji picks up on the first ring.* |
+| 12 | **Jerry Can** | 2 | Instant | Add 2 fuel (max 5). Can save you from being Out of Gas. | *Always keep one in the trunk.* |
 | | | **25** | | | |
 
 ## Obstacle cards (25)
@@ -35,7 +36,7 @@ Resolve these immediately.
 | # | Card | Copies | Effect | Flavor |
 |---|---|---|---|---|
 | 1 | **Flat Tire** | 3 | Keep this card face up. You get −2 to your rolls until you stop at a Gas Station. Or, at the start of any turn, you may park (lose that turn) to fix it right away. | *Pssssssss…* |
-| 2 | **Out of Gas** | 3 | Move back to the nearest Gas Station behind you on your route and resolve it. If there's none behind you, park instead (lose your next turn). | *The needle's been on E for a while.* |
+| 2 | **Fuel Leak** | 3 | Turn your fuel gauge down 2 (not below 0). | *Is that smell coming from us?* |
 | 3 | **Police Checkpoint** | 3 | If your Heat is 1 or more, you're Pulled Over. If your Heat is 0, gain 1 Rep instead (clean record). | *License and registration, please.* |
 | 4 | **Traffic Jam** | 3 | Next turn, move exactly 2 spaces. Don't roll, and ignore upgrades and cards. | *Taillights as far as you can see.* |
 | 5 | **Construction** | 2 | Detour: move back 2 spaces. | *Road work ahead. Again.* |
@@ -53,6 +54,8 @@ Resolve these immediately.
 
 There are 4 copies of each upgrade. Each player can own one of each.
 
+Upgrades slide into the matching slot on your dashboard.
+
 | Upgrade | Copies | Cost | Effect | Flavor |
 |---|---|---|---|---|
 | **Nitrous** | 4 | 3 Rep | Before rolling: +3 to this roll, +1 Heat. Turn the card sideways (empty). Refill it free at a Gas Station, or for 2 Rep at the start of your turn. | *Push the red button.* |
@@ -65,5 +68,6 @@ There are 4 copies of each upgrade. Each player can own one of each.
 - **Bribe a Cop** and **Mechanic on Call** are the strongest "save" cards. If games feel too forgiving, cut them to 2 and 1 copies.
 - **Police Checkpoint** rewards low Heat. That's the main reason for a player to drive carefully.
 - **Rival Crew** only takes from players who are ahead. It's a soft catch-up rule.
+- **Fuel Leak** and **Jerry Can** are the fuel swing cards. If players run out of gas too often, swap one Fuel Leak for a third Jerry Can.
 - **Sponsor Deal** is the main way an expressway driver earns Rep for upgrades.
 - If the decks feel samey, add one-off "spice" cards. For example, **Street Racer Legend** (a Boost: swap places with any car within 3 spaces) or **Drunk Salaryman** (an Obstacle: everyone on your route moves back 1).

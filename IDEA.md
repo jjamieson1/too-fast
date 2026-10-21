@@ -15,6 +15,7 @@ Related docs:
 - [RULES.md](RULES.md): the rulebook draft
 - [CARDS.md](CARDS.md): every Boost, Obstacle and Upgrade card
 - [BOARD.md](BOARD.md): the board layout, space by space, plus [board-sketch.svg](board-sketch.svg)
+- [dashboard-sketch.svg](dashboard-sketch.svg): the player dashboard card
 
 ---
 
@@ -28,10 +29,22 @@ Every player tracks **Heat** (0–5), which measures how much police attention t
 
 This gives every turn a push-your-luck choice. It also slows down the leader, who is usually the one driving hardest.
 
+## The dashboard: your car in your hands
+
+Each player holds a large **car-dashboard card**:
+
+- **Fuel gauge (5 → 0):** turn it down 1 every turn you drive. Fill back up to 5 at a gas station or Shibuya Crossing. If you hit 0, you have to go back to the nearest gas station behind you.
+- **Heat dial (0 → 5):** a tachometer with a red line at 5. Hit the red line and you're Busted.
+- **Four upgrade slots:** Nitrous, Police Scanner, Turbo and Racing Tires. Slide each Upgrade card in when you buy it.
+
+Everything about your car is on one card you can read at a glance. Fuel also adds a second kind of pressure: Heat says "don't go too fast," and fuel says "don't take too long." You have to plan your gas stops, and sometimes give up a few spaces to stop at a station.
+
+**Prototype tip:** cut the dials out of card stock and pin them on with paper fasteners (brads), so they spin.
+
 ## The core loop
 
 1. **Before you roll:** buy upgrades with Reputation and play Boost cards.
-2. **Roll and move:** d6 plus your upgrades. Watch for speed traps.
+2. **Burn fuel, then roll and move:** fuel −1, then roll a d6 and add your upgrades. Watch for speed traps.
 3. **Land:** resolve the space (gain Reputation, draw a card, visit a landmark…).
 4. **Clash:** if you end on another car's space, you have a Street Duel.
 
@@ -45,9 +58,9 @@ The race runs in two legs, with Shibuya Crossing in the middle.
 |---|---|---|
 | **Wangan Expressway** | 24 | Fastest, but full of speed traps. Has Daikoku PA (cheap upgrades) and Rainbow Bridge (a paid shortcut). |
 | **Ginza Avenue** | 28 | Balanced. Good card draws, a few traps. |
-| **Back Alleys** | 32 | Slowest, but lots of Reputation. Narrow streets let you block other cars. No police. |
+| **Back Alleys** | 32 | Slowest, but lots of Reputation. Narrow streets let you block other cars. No police, and three corner gas stands. |
 
-Every car **must stop** at Shibuya Crossing. The first car to arrive gets a bonus.
+Every car **must stop** at Shibuya Crossing and refuels there. The first car to arrive gets a bonus.
 
 **Leg 2: Shibuya Crossing → Tokyo Tower (finish)**
 
@@ -89,7 +102,7 @@ Permanent bonuses cap at +2. That keeps an early leader from running away with t
 |---|---|---|
 | Flat tire appeared twice (miss a turn / re-roll with a minus) | One **Flat Tire** card: −2 to rolls until you stop at a gas station | Removes the duplicate, and gives gas stations a job |
 | Construction = miss a turn | Construction = detour back 2 spaces | Missing turns isn't fun. Now only *Tow Zone* and getting *Busted* skip a turn outright. A few other cases do it only if you can't pay or choose to. |
-| Ran out of gas, return to the nearest station | Kept as the **Out of Gas** card | No fuel gauge to track. Lighter bookkeeping. |
+| Ran out of gas, return to the nearest station | A **fuel gauge** on your dashboard (5 → 0, −1 per turn). At 0, you go back to the nearest gas station. The old *Out of Gas* card became *Fuel Leak* (−2 fuel), and there's a new *Jerry Can* boost (+2 fuel). | Fuel is a steady pressure every turn, not a random card. |
 | Turbo / tires / nitrous each +1 | Each upgrade does something different | Real choices instead of three copies of +1 |
 | Oil slick: back 4 spaces | Back 3 spaces; racing tires are immune | Slightly softer, and gives tires a purpose |
 | Speed trap: pay Rep | Pay Rep equal to your Heat | Ties into the Heat system |
@@ -99,10 +112,10 @@ Permanent bonuses cap at +2. That keeps an early leader from running away with t
 
 - Game board (see [BOARD.md](BOARD.md))
 - 4 car tokens (Hot Wheels–scale cars work well)
-- 4 player dashboards (Heat track 0–5, 4 upgrade slots)
+- 4 player dashboards, each with a fuel dial (5 → 0), a Heat dial (0 → 5) and 4 upgrade slots (see [dashboard-sketch.svg](dashboard-sketch.svg))
+- 8 paper fasteners (brads) for the dials
 - 25 Boost cards, 25 Obstacle cards, 16 Upgrade cards (4 of each)
 - Reputation chips: about 40 "1" chips and 10 "5" chips
-- 4 Heat markers (small cubes)
 - 6 oil slick tokens
 - 1 six-sided die (or one per player)
 
@@ -112,5 +125,8 @@ Permanent bonuses cap at +2. That keeps an early leader from running away with t
 - [ ] Is the Wangan Expressway too strong or too weak? Adjust the speed trap count.
 - [ ] Is Rep income high enough that most players buy 1–2 upgrades by Shibuya?
 - [ ] Do players reach Heat 5 too often (or never)?
+- [ ] How often does someone run out of gas? About once per game per player feels right. Every few turns is too much.
+- [ ] Is Ginza Avenue's last stretch (16 spaces to Shibuya) too long on one tank?
+- [ ] Is forgetting to turn the fuel dial a problem? If so, make burning fuel a printed step on the dashboard (it already is on the sketch).
 - [ ] Are any cards "feel-bad" cards that people groan at?
 - [ ] Variant idea: **Street Cred mode**, where the first to finish gets +10 Rep and the most Rep wins.

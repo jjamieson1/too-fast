@@ -44,7 +44,7 @@ With an average move of about 4–5 spaces, a race takes roughly **10–12 turns
 | +5 | Gain 5 Rep (alleys only) | dark gold |
 | B | Draw a Boost card | green |
 | ! | Draw an Obstacle card | orange |
-| G | Gas station | blue |
+| G | Gas station (refuel to 5) | blue |
 | S | Speed trap | red |
 | ★ | Landmark | purple |
 | dashed outline | Narrow street (one car per space) | |
@@ -84,19 +84,20 @@ With an average move of about 4–5 spaces, a race takes roughly **10–12 turns
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| · | +3 | B | +3 | · | ! | +5 | ★ Tsukiji | B | · | +3 | ! | B | +3 | · | G |
+| · | +3 | B | +3 | · | ! | +5 | ★ Tsukiji | B | · | G | ! | B | +3 | · | G |
 
 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| +5 | B | · | +3 | ! | ★ Ameyoko | B | +3 | · | +5 | B | ! | +3 | · | B | +3 |
+| +5 | B | · | +3 | ! | ★ Ameyoko | B | G | · | +5 | B | ! | +3 | · | B | +3 |
 
-0 speed traps · 11 Rep spaces (3 of them +5) · 7 Boost · 4 Obstacle · 1 gas station
+0 speed traps · 9 Rep spaces (3 of them +5) · 7 Boost · 4 Obstacle · 3 gas stands (the alleys are slow, so they get extra fuel stops)
 
 ---
 
 ## ★ Shibuya Crossing (hub)
 
 - Every car **must stop** here. Leftover movement is lost.
+- **Fill your fuel to 5.**
 - The **first car to arrive** gains **3 Rep**.
 - No duels here.
 - On your next turn, choose route D or E.
@@ -146,15 +147,16 @@ The first car to reach or pass it wins.
 | **Akihabara** | B21 | *Hack the traffic lights.* Move any other car back 2 spaces. |
 | **Tsukiji Market** | C8 | *Stuck behind a fish truck.* Gain 3 Rep, but get −1 to your next roll. |
 | **Ameyoko (Ueno)** | C22 | *Lose yourself in the market crowd.* Reset your Heat to 0. |
-| **Shibuya Crossing** | hub | See above. |
+| **Shibuya Crossing** | hub | Must stop, refuel to 5. First car to arrive gets +3 Rep. |
 | **Harajuku** | E5 | *Show off your ride.* Gain 1 Rep for each upgrade you own. |
 | **Roppongi** | E15 | *Nightlife crowd.* Gain 1 Rep for each car behind you, and +1 Heat. |
 
 ## Placement rules (for when you redesign the map)
 
 - **Don't put a speed trap right after a landmark that moves you forward.** It feels like a trap in the bad sense.
-- **Each route needs a gas station** so *Out of Gas* and *Flat Tire* can always be resolved.
-- **Gas stations go in the middle of a route,** not near the start. That way *Out of Gas* actually sends you back.
+- **Keep fuel stops 16 spaces apart or less.** Start, Shibuya and gas stations all count. A full tank (5 turns) carries a car with no upgrades about 17 spaces, so a longer gap means players run out all the time. Today's gaps are 5–13 spaces, except Ginza Avenue's last stretch (16), which is the tightest.
+- **Every route needs at least one gas station,** so *Flat Tire* can always be fixed.
+- **Gas stations go in the middle of a route,** not near the start. That way running out of gas actually sends you back.
 - **Keep Plain spaces at about 25–40%.** Too few and every turn is busy. Too many and turns feel empty.
 - **Oil slicks can only go on Plain spaces.** More Plain spaces on a route means more room for sabotage.
 

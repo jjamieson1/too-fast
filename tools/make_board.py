@@ -11,7 +11,7 @@ ROUTES = {
               pts=[(70,450),(110,290),(220,150),(400,105),(560,140),(620,280),(720,450)], side=-1, narrow=()),
     "B": dict(name="Ginza Avenue", seq=". B R . O . S R . L:Ginza B . G O . R . B S . L:Akihabara O R . B . R .",
               pts=[(70,450),(160,450),(225,345),(315,335),(380,450),(440,560),(530,565),(580,460),(640,450),(720,450)], side=-1, narrow=()),
-    "C": dict(name="Back Alleys", seq=". R B R . O R5 L:Tsukiji B . R O B R . G R5 B . R O L:Ameyoko B R . R5 B O R . B R",
+    "C": dict(name="Back Alleys", seq=". R B R . O R5 L:Tsukiji B . G O B R . G R5 B . R O L:Ameyoko B G . R5 B O R . B R",
               pts=[(70,450),(95,600),(170,730),(290,810),(420,830),(530,780),(580,690),(620,600),(720,450)], side=1, narrow=tuple(range(5,13))+tuple(range(19,27))),
     "D": dict(name="Shuto C1 Loop", seq=". S . B S . O R S . G . S B . O S .",
               pts=[(720,450),(780,300),(920,215),(1100,215),(1250,290),(1350,450)], side=-1, narrow=()),
@@ -111,7 +111,7 @@ def node(x,y,title,sub,col):
             f'<text x="{x}" y="{y+15}" font-size="9" text-anchor="middle" fill="#f0f0f0">{sub}</text>')
 
 svg.append(node(70,450,"START","Odaiba","#222"))
-svg.append(node(720,450,"SHIBUYA","Must stop","#c2185b"))
+svg.append(node(720,450,"SHIBUYA","Must stop · Refuel","#c2185b"))
 svg.append(node(1350,450,"FINISH","Tokyo Tower","#e53935"))
 
 legend = [(".","Plain"),("R","+3 Rep"),("R5","+5 Rep"),("B","Boost card"),("O","Obstacle card"),("G","Gas station"),("S","Speed trap"),("L","Landmark")]
