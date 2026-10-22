@@ -1,4 +1,4 @@
-# Too Fast — Card List (Draft v0.1)
+# Too Fast — Card List (Draft v0.3)
 
 This file lists every card: **25 Boost**, **25 Obstacle** and **16 Upgrade** cards.
 
@@ -22,7 +22,7 @@ For prototyping, write each one on an index card. Print the *flavor text* in ita
 | 5 | **Drift King** | 1 | Before roll | Roll two dice this turn and use either one. Gain +1 Heat. | *Sideways is faster. Probably.* |
 | 6 | **Scanner Tip** | 2 | Before roll | Speed traps can't catch you this turn. | *Your buddy on the radio: "Traps are off tonight."* |
 | 7 | **Slipstream** | 2 | Before roll | Move to the space directly behind the nearest car ahead of you on your route (if it's within 6 spaces). Then roll and move as normal. | *Tuck in. Ride the draft.* |
-| 8 | **Shortcut** | 2 | After move | Move forward to the next Gas Station on your route and resolve it. If there's none ahead of you, move forward 3 spaces instead. | *The locals know a way.* |
+| 8 | **Shortcut** | 2 | After move | Move forward to the next Gas Station on your route, **up to 6 spaces**, and resolve the space you stop on. If there's no station ahead of you, move forward 3 spaces instead. | *The locals know a way.* |
 | 9 | **Fake Plates** | 2 | Instant | Lose 3 Heat. | *Whose car? Not mine.* |
 | 10 | **Sponsor Deal** | 2 | Instant | Gain 4 Rep. | *A tuning shop wants their logo on your hood.* |
 | 11 | **Mechanic on Call** | 2 | Instant | Cancel an Obstacle card as you draw it. Discard both. | *Kenji picks up on the first ring.* |
@@ -38,7 +38,7 @@ Resolve these immediately.
 | 1 | **Flat Tire** | 3 | Keep this card face up. You get −2 to your rolls until you stop at a Gas Station. Or, at the start of any turn, you may park (lose that turn) to fix it right away. | *Pssssssss…* |
 | 2 | **Fuel Leak** | 3 | Turn your fuel gauge down 2 (not below 0). | *Is that smell coming from us?* |
 | 3 | **Police Checkpoint** | 3 | If your Heat is 1 or more, you're Pulled Over. If your Heat is 0, gain 1 Rep instead (clean record). | *License and registration, please.* |
-| 4 | **Traffic Jam** | 3 | Next turn, move exactly 2 spaces. Don't roll, and ignore upgrades and cards. | *Taillights as far as you can see.* |
+| 4 | **Traffic Jam** | 3 | Next turn, move exactly 2 spaces. Don't roll, and ignore upgrades and cards. You still burn fuel. | *Taillights as far as you can see.* |
 | 5 | **Construction** | 2 | Detour: move back 2 spaces. | *Road work ahead. Again.* |
 | 6 | **Wrong Turn** | 2 | Move back 3 spaces. | *That was definitely the wrong exit.* |
 | 7 | **Engine Trouble** | 2 | −2 to your next roll. | *That noise wasn't there before.* |
@@ -58,7 +58,7 @@ Upgrades slide into the matching slot on your dashboard.
 
 | Upgrade | Copies | Cost | Effect | Flavor |
 |---|---|---|---|---|
-| **Nitrous** | 4 | 3 Rep | Before rolling: +3 to this roll, +1 Heat. Turn the card sideways (empty). Refill it free at a Gas Station, or for 2 Rep at the start of your turn. | *Push the red button.* |
+| **Nitrous** | 4 | 3 Rep | After burning fuel, before rolling: +3 to this roll, +1 Heat. Turn the card sideways (empty). Refill it free at a Gas Station, or for 2 Rep at the start of your turn. | *Push the red button.* |
 | **Police Scanner** | 4 | 3 Rep | Speed traps only catch you if you land on them. | *Know where they are before they know where you are.* |
 | **Turbo** | 4 | 5 Rep | +1 to every roll. | *Spool it up.* |
 | **Racing Tires** | 4 | 6 Rep | +1 to every roll. Immune to oil slicks and Rain. | *Sticky.* |
@@ -67,6 +67,8 @@ Upgrades slide into the matching slot on your dashboard.
 
 - **Bribe a Cop** and **Mechanic on Call** are the strongest "save" cards. If games feel too forgiving, cut them to 2 and 1 copies.
 - **Police Checkpoint** rewards low Heat. That's the main reason for a player to drive carefully.
+- **Shortcut** was the strongest card in simulation (36% win rate after drawing it). v0.3 caps it at 6 spaces.
+- **Tow Zone** was the harshest (17% win rate after drawing it). If it still feels bad in playtests, change it to "move back 4 spaces."
 - **Rival Crew** only takes from players who are ahead. It's a soft catch-up rule.
 - **Fuel Leak** and **Jerry Can** are the fuel swing cards. If players run out of gas too often, swap one Fuel Leak for a third Jerry Can.
 - **Sponsor Deal** is the main way an expressway driver earns Rep for upgrades.

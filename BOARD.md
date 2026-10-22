@@ -1,4 +1,4 @@
-# Too Fast — Board Layout (Draft v0.1)
+# Too Fast — Board Layout (Draft v0.3)
 
 ![Board sketch](board-sketch.svg)
 
@@ -41,7 +41,6 @@ With an average move of about 4–5 spaces, a race takes roughly **10–12 turns
 |---|---|---|
 | · | Plain | grey |
 | +3 | Gain 3 Rep | yellow |
-| +5 | Gain 5 Rep (alleys only) | dark gold |
 | B | Draw a Boost card | green |
 | ! | Draw an Obstacle card | orange |
 | G | Gas station (refuel to 5) | blue |
@@ -84,13 +83,13 @@ With an average move of about 4–5 spaces, a race takes roughly **10–12 turns
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| · | +3 | B | +3 | · | ! | +5 | ★ Tsukiji | B | · | G | ! | B | +3 | · | G |
+| · | +3 | B | +3 | · | ! | +3 | ★ Tsukiji | B | · | G | ! | B | +3 | · | G |
 
 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| +5 | B | · | +3 | ! | ★ Ameyoko | B | G | · | +5 | B | ! | +3 | · | B | +3 |
+| +3 | B | · | +3 | ! | ★ Ameyoko | B | G | · | +3 | B | ! | +3 | · | B | +3 |
 
-0 speed traps · 9 Rep spaces (3 of them +5) · 7 Boost · 4 Obstacle · 3 gas stands (the alleys are slow, so they get extra fuel stops)
+0 speed traps · 9 Rep spaces · 7 Boost · 4 Obstacle · 3 gas stands (the alleys are slow, so they get extra fuel stops)
 
 ---
 
@@ -98,7 +97,6 @@ With an average move of about 4–5 spaces, a race takes roughly **10–12 turns
 
 - Every car **must stop** here. Leftover movement is lost.
 - **Fill your fuel to 5.**
-- The **first car to arrive** gains **3 Rep**.
 - No duels here.
 - On your next turn, choose route D or E.
 
@@ -143,11 +141,11 @@ The first car to reach or pass it wins.
 |---|---|---|
 | **Daikoku PA** | A7 | *The famous car meet.* You may buy one upgrade at **2 Rep off** (minimum cost 1). |
 | **Rainbow Bridge** | A17 | *Toll shortcut.* You may pay 2 Rep to move forward 4 spaces (to A21). |
-| **Ginza** | B10 | *Luxury shopping.* You may pay 1 Rep to draw 2 Boost cards and keep 1. |
+| **Ginza** | B10 | *Luxury shopping.* You may pay 1 Rep to draw 2 Boost cards and keep 1. A Sponsor Deal counts as the card you keep. |
 | **Akihabara** | B21 | *Hack the traffic lights.* Move any other car back 2 spaces. |
 | **Tsukiji Market** | C8 | *Stuck behind a fish truck.* Gain 3 Rep, but get −1 to your next roll. |
 | **Ameyoko (Ueno)** | C22 | *Lose yourself in the market crowd.* Reset your Heat to 0. |
-| **Shibuya Crossing** | hub | Must stop, refuel to 5. First car to arrive gets +3 Rep. |
+| **Shibuya Crossing** | hub | Must stop, refuel to 5. |
 | **Harajuku** | E5 | *Show off your ride.* Gain 1 Rep for each upgrade you own. |
 | **Roppongi** | E15 | *Nightlife crowd.* Gain 1 Rep for each car behind you, and +1 Heat. |
 

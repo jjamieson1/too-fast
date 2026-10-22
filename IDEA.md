@@ -1,4 +1,4 @@
-# Too Fast — Design Doc
+# Too Fast — Design Doc (v0.3)
 
 > A street-racing board game through the streets of Tokyo. Go fast, get famous, don't get caught.
 
@@ -16,6 +16,7 @@ Related docs:
 - [CARDS.md](CARDS.md): every Boost, Obstacle and Upgrade card
 - [BOARD.md](BOARD.md): the board layout, space by space, plus [board-sketch.svg](board-sketch.svg)
 - [dashboard-sketch.svg](dashboard-sketch.svg): the player dashboard card
+- [SIMULATION.md](SIMULATION.md): balance findings from 20,000-game bot simulations
 
 ---
 
@@ -24,7 +25,7 @@ Related docs:
 Every player tracks **Heat** (0–5), which measures how much police attention they've drawn.
 
 - You gain Heat by rolling a natural 6, using nitrous, and from some cards and spaces.
-- When you're **pulled over** at a speed trap, you pay Reputation equal to your Heat.
+- When you're **pulled over** at a speed trap, you pay Reputation equal to your Heat. At Heat 0 you just get a warning.
 - If your Heat hits 5, you're **Busted**: you lose your next turn.
 
 This gives every turn a push-your-luck choice. It also slows down the leader, who is usually the one driving hardest.
@@ -60,7 +61,7 @@ The race runs in two legs, with Shibuya Crossing in the middle.
 | **Ginza Avenue** | 28 | Balanced. Good card draws, a few traps. |
 | **Back Alleys** | 32 | Slowest, but lots of Reputation. Narrow streets let you block other cars. No police, and three corner gas stands. |
 
-Every car **must stop** at Shibuya Crossing and refuels there. The first car to arrive gets a bonus.
+Every car **must stop** at Shibuya Crossing and refuels there.
 
 **Leg 2: Shibuya Crossing → Tokyo Tower (finish)**
 
@@ -73,7 +74,7 @@ Every car **must stop** at Shibuya Crossing and refuels there. The first car to 
 
 ## The economy: Reputation
 
-- **Start with:** 4 Reputation (Rep).
+- **Start with:** 4 Reputation (Rep). The 3rd and 4th players get +1 and +2 extra to make up for going later.
 - **Earn it from:** Rep spaces, landmarks, Sponsor cards, winning duels, and rolling a natural 1 ("keeping it cool").
 - **Spend it on:** upgrades, fines, and some landmark actions.
 
@@ -105,7 +106,7 @@ Permanent bonuses cap at +2. That keeps an early leader from running away with t
 | Ran out of gas, return to the nearest station | A **fuel gauge** on your dashboard (5 → 0, −1 per turn). At 0, you go back to the nearest gas station. The old *Out of Gas* card became *Fuel Leak* (−2 fuel), and there's a new *Jerry Can* boost (+2 fuel). | Fuel is a steady pressure every turn, not a random card. |
 | Turbo / tires / nitrous each +1 | Each upgrade does something different | Real choices instead of three copies of +1 |
 | Oil slick: back 4 spaces | Back 3 spaces; racing tires are immune | Slightly softer, and gives tires a purpose |
-| Speed trap: pay Rep | Pay Rep equal to your Heat | Ties into the Heat system |
+| Speed trap: pay Rep | Pay Rep equal to your Heat (Heat 0 = a warning) | Ties into the Heat system, and leaves careful drivers alone |
 | "Traffic break Anna…" (unfinished) | Became **Green Wave** (+2 to your roll) | My best guess at the idea. Change it if you meant something else! |
 
 ## Components (prototype list)
@@ -121,10 +122,12 @@ Permanent bonuses cap at +2. That keeps an early leader from running away with t
 
 ## Open questions for playtesting
 
-- [ ] Does the game land in 30–45 minutes? If it runs long, shorten routes by 2–4 spaces.
-- [ ] Is the Wangan Expressway too strong or too weak? Adjust the speed trap count.
+The bot simulations ([SIMULATION.md](SIMULATION.md)) already answered some balance questions. v0.3 includes those fixes. These still need real players:
+
+- [ ] Does the game land in 30–45 minutes? The simulation predicts about 12 rounds, roughly 25 minutes at 30 seconds a turn. If it runs short, lengthen each route by 3–4 spaces.
+- [ ] **Heat barely matters yet.** In the simulation, players were Busted only about once in 50 games. Should being pulled over stop resetting Heat, with bigger fines in exchange?
+- [ ] Does the halfway leader still win too often? The simulation says the first car into Shibuya wins 57% of games.
 - [ ] Is Rep income high enough that most players buy 1–2 upgrades by Shibuya?
-- [ ] Do players reach Heat 5 too often (or never)?
 - [ ] How often does someone run out of gas? About once per game per player feels right. Every few turns is too much.
 - [ ] Is Ginza Avenue's last stretch (16 spaces to Shibuya) too long on one tank?
 - [ ] Is forgetting to turn the fuel dial a problem? If so, make burning fuel a printed step on the dashboard (it already is on the sketch).

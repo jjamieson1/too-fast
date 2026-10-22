@@ -1,4 +1,4 @@
-# Too Fast — Rulebook (Draft v0.2)
+# Too Fast — Rulebook (Draft v0.3)
 
 *2–4 players · ages 10+ · 30–45 minutes*
 
@@ -34,9 +34,9 @@ A sketch is in [dashboard-sketch.svg](dashboard-sketch.svg). For a prototype, cu
 2. Shuffle the Boost deck and the Obstacle deck separately, and put them face down next to the board.
 3. Sort the Upgrade cards into four face-up piles. This is the **shop**.
 4. Each player takes a car and a dashboard. Turn your **fuel to 5** and your **Heat to 0**.
-5. Each player takes **4 Reputation** (Rep).
-6. Put all cars on the **Start** space at Odaiba.
-7. The player who most recently rode in a car goes first. Play continues clockwise.
+5. Put all cars on the **Start** space at Odaiba.
+6. The player who most recently rode in a car goes first. Play continues clockwise.
+7. Each player takes **4 Reputation** (Rep). Going later is a disadvantage, so the **3rd player takes 1 extra Rep** (5 total) and the **4th player takes 2 extra** (6 total).
 
 ## 4. How to win
 
@@ -50,11 +50,12 @@ Each turn has four steps, in this order.
 - If your car is **parked** (lying on its side, see §10), stand it back up. Your turn ends. *Parked cars don't burn fuel.*
 - You may **buy upgrades** from the shop (see §7).
 - You may play Boost cards marked **Before roll**.
-- You may fire your **Nitrous** if you have it.
 
 ### Step 2: Burn fuel, roll and move
 **First, burn fuel:** turn your fuel gauge down by 1.
 - If your gauge is **already at 0**, you're **Out of Gas** (see §8). Do that instead of rolling. Your turn ends.
+
+**Then you may fire your Nitrous**, if you have it and it's full.
 
 **Then roll** the die and add your modifiers:
 - **+1** for Turbo
@@ -90,7 +91,6 @@ Then it's the next player's turn.
 |---|---|
 | **Plain** | Nothing. |
 | **Rep (+3)** | Gain 3 Rep. |
-| **Rep (+5)** | Gain 5 Rep. These are only in the Back Alleys. |
 | **Boost** | Draw a Boost card and keep it in your hand. |
 | **Obstacle** | Draw an Obstacle card and resolve it immediately. |
 | **Gas Station** | Pit stop: **fill your fuel to 5**, lose 2 Heat, refill your Nitrous, and fix a Flat Tire. |
@@ -103,7 +103,7 @@ Then it's the next player's turn.
 - If you're moved **backward**, don't resolve it (unless the rule says to).
 - Speed traps only trigger during your normal roll movement.
 
-**Moving backward:** you can never move back past Shibuya Crossing or the Start. Stop there.
+**Moving backward:** you can never move back past Shibuya Crossing or the Start. Stop there. If you're pushed back onto one of them, you choose your route again the next time you leave.
 
 ## 7. Upgrades
 
@@ -111,7 +111,7 @@ At the start of your turn, you may buy upgrades by paying Rep to the bank. Slide
 
 | Upgrade | Cost | Effect |
 |---|---|---|
-| **Nitrous** | 3 | Before rolling, you may fire it: **+3** to this roll and **+1 Heat**. Then turn the card sideways in its slot (empty). It refills when you stop at a gas station, or you can pay 2 Rep at the start of your turn to refill it. |
+| **Nitrous** | 3 | After you burn fuel and before you roll, you may fire it: **+3** to this roll and **+1 Heat**. Then turn the card sideways in its slot (empty). It refills when you stop at a gas station, or you can pay 2 Rep at the start of your turn to refill it. |
 | **Police Scanner** | 3 | Speed traps only catch you if you **land** on them. Passing through is always safe. |
 | **Turbo** | 5 | **+1** to every roll. |
 | **Racing Tires** | 6 | **+1** to every roll. Immune to oil slicks and Rain. |
@@ -121,7 +121,7 @@ If the shop runs out of an upgrade, nobody else can buy it.
 ## 8. Fuel
 
 - You start with a **full tank (5)**.
-- Each turn you drive, you **burn 1 fuel** before you roll.
+- Each turn you drive, you **burn 1 fuel** before you roll. This includes Traffic Jam turns, when you move without rolling.
 - **Fill up to 5** by stopping at a **Gas Station** or at **Shibuya Crossing**.
 - Some cards add or remove fuel. Fuel never goes above 5 or below 0.
 
@@ -145,18 +145,20 @@ Your **Heat dial** goes from 0 to 5 and tracks how much attention you've drawn.
 ### Speed traps
 You're **caught** by a speed trap if either:
 - you **land** on it, or
-- you **pass through** it with **movement of 6 or more** that turn.
+- you **pass through** it with **movement of 7 or more** that turn.
 
 If you're caught while passing through, stop on the trap. Your movement ends there.
 
 ### Pulled over
-1. Pay Rep equal to your Heat (**minimum 1**).
-2. Reset your Heat to **0**.
-3. If you can't pay the full amount, pay everything you have and **park** your car (you lose your next turn).
+- **At Heat 0, you get a warning.** No fine, nothing happens. Careful drivers are left alone.
+- **At Heat 1 or more:**
+  1. Pay Rep equal to your Heat.
+  2. Reset your Heat to **0**.
+  3. If you can't pay the full amount, pay everything you have and **park** your car (you lose your next turn).
 
 ### Busted
 If your Heat ever hits the **red line (5)**, you're **Busted** right away:
-- **Park** your car (you lose your next turn).
+- **Park** your car (you lose your next turn). If you're in the middle of a move, finish it first.
 - Set your Heat to **2**.
 
 *Bribe a Cop* (a Boost card) can cancel being pulled over or Busted.
@@ -196,7 +198,6 @@ Some Boost cards let you place an oil slick token on any empty Plain space. The 
 
 - **Every car must stop here.** Leftover movement is lost.
 - **Fill your fuel to 5.** Every car leaves Shibuya with a full tank.
-- The **first car to arrive** gains **3 Rep**.
 - No duels here. It's crowded, and everyone is waiting for the light.
 - On your next turn, choose your leg 2 route: **Shuto C1 Loop** or **Harajuku–Roppongi**.
 
@@ -223,3 +224,18 @@ If a deck runs out, shuffle its discard pile to make a new deck.
 - **Hot pursuit:** start everyone at 1 Heat.
 - **Fuel delivery:** when you're Out of Gas, you may instead pay 3 Rep to have fuel delivered. Fill to 5 where you are, and park (lose your next turn).
 - **Thirsty nitrous:** firing Nitrous also burns 1 extra fuel.
+
+## 15. Changes in v0.3
+
+These come from 20,000-game balance simulations (see [SIMULATION.md](SIMULATION.md)).
+
+| Change | Why |
+|---|---|
+| Back Alley +5 spaces are now +3 | The alleys were too rich: alley drivers won about 42% of games. |
+| Speed traps catch cars passing at **7+** movement (was 6+) | The Wangan Expressway was too punishing: Expressway → C1 drivers won about 9% of games. |
+| **Heat 0 = warning**, no fine | Careful but broke drivers were losing turns to 1-Rep fines. |
+| 3rd and 4th players start with +1 / +2 Rep | Seat 1 was winning 30% of games and seat 4 only 20%. |
+| No bonus for the first car into Shibuya | The halfway leader was winning 64% of games. |
+| *Shortcut* moves 6 spaces at most | It was the strongest card. |
+| Nitrous fires **after** you burn fuel | So you can't waste Nitrous on a turn you run out of gas. |
+| Clarified: Busted mid-move, Traffic Jam fuel, re-choosing routes | Gaps found while writing the simulator. |
