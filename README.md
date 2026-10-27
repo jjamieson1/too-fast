@@ -8,6 +8,10 @@
   <b>2–4 players</b> · <b>Ages 10+</b> · <b>30–45 minutes</b> · <i>Prototype in development</i>
 </p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0"></a>
+</p>
+
 ---
 
 **Midnight in Tokyo. The streets are empty, the neon is bright, and the race is on.**
@@ -143,6 +147,8 @@ The full findings are in [SIMULATION.md](SIMULATION.md).
 | [IDEA.md](IDEA.md) | Design notes, parts list and open playtest questions |
 | [BOX.md](BOX.md) | Front and back box copy |
 | [SIMULATION.md](SIMULATION.md) | Balance findings from the simulator |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to playtest, suggest changes and send them back |
+| [LICENSE](LICENSE) | CC BY-NC-SA 4.0: free for non-commercial use |
 
 ### For designers and tinkerers
 
@@ -178,6 +184,17 @@ go run ./cmd/sim -trace -seed 7
 
 *Too Fast* is a **prototype**. The rules are at v0.3, and paper playtesting is next.
 
-**Want to help playtest?** Print the board and cards, grab four toy cars, and [open an issue](https://github.com/jjamieson1/too-fast/issues) with how your race went.
+**Want to help playtest?** Print the board and cards, grab four toy cars, and [open an issue](https://github.com/jjamieson1/too-fast/issues) with how your race went. [CONTRIBUTING.md](CONTRIBUTING.md) explains how to suggest changes or send improvements back.
+
+## License
+
+*Too Fast* is free to play, print, share and change, **for non-commercial use**. It's licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0).
+
+- ✅ **Play it, print it, share it and remix it for free.**
+- ✅ **Give credit** and link back to this project.
+- 🚫 **No commercial use** without permission.
+- 🔁 **Share-alike:** if you share a changed version, it must use this same license. **Please send your improvements back here too!**
+
+This covers everything in the repo: the rules, cards, board and dashboard designs, artwork, docs and the simulator code. The full terms are in [LICENSE](LICENSE). Interested in a commercial license? [Open an issue](https://github.com/jjamieson1/too-fast/issues).
 
 <p align="center"><i>Drive fast. Not too fast.</i> 🏁</p>
